@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --sec-text-color: rgb(163, 160, 160);
+}
+
+.main-container{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px;
+}
+
+.div-one{
+    border: solid 1px blue;
+    /* height: 45%; */
+    padding: 30px;
+}
+
+.header{
+    display: flex;
+    /* column-gap: 90%; */
+}
+
+hr{
+    margin: 0 auto;
+    width: 97%;
+}
+
+#cart-items{
+border: 2px solid var(--sec-text-color);
+padding: 10px;
+}
+
+.main-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.samurai-king{
+    display: flex;
+    /* column-gap: 79%; */
+    padding: 30px 0 20px 0;
+}
+
+.dog-image{
+    /* width: 100%; */
+    
+    /* padding: 40px 60px; */
+    border: solid 1px black;
+    /* margin: 0 auto; */
+    display: flex;
+    height: 560px;
+    width: 100%;
+    
+    justify-self:center;
+}
+
+.text-over-dog{
+    /* border: solid 1px black; */
+    justify-self: left;
+    position: relative;
+    transform: translateY(-49px);
+    background-color: white;
+    padding: 15px 30px;
+    font-weight: 500;
+}
+
+.text-and-boxes{
+    display: flex;
+    /* column-gap: 90px; */
+    flex-grow: 1;
+}
+
+.text-main{
+    border: solid 1px orangered;
+    padding-right: 20px;
+}
+
+.text-for-small-boxes{
+    text-align: right;
+}
+
+.small-boxes{
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.small-box{
+    width: 117px;
+    height: 147px;
+    border: solid 1px orangered;
+}
+
+.div-two{
+    border: solid 1px green;
+    /* height: 55%; */
+    padding: 30px;
+}
+
+.main-two{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.big-box-div{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.big-box-button{
+    padding: 7px 63.5px;
+    cursor: pointer;
+}
+
+.big-box{
+    width: 212px;
+    height: 294px;
+    border: solid 1px orangered;
+    flex-direction: column;
+    align-content: end;
+
+    
+    
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 7px 40px;
+    border: none;
+}
+
+.sec-text{
+    color: var(--sec-text-color);
+}
+
+.div-three{
+    display: flex;
+    justify-content: center;
+}
+
+.button-bottom{
+    color: var(--sec-text-color);
+    /* width: 1px;
+    height: 1px; */
+    padding: 5px ;
+    background-color: white;
+    cursor: pointer;
+}
