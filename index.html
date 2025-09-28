@@ -29,7 +29,26 @@
             />
             <ul id="cart-items"></ul>
             <hr />
-            <button>CLEAR</button>
+            
+            <aside id="cart" class="cart">
+  <!-- Close / X button -->
+  <button id="close-cart" class="cart-close" type="button" aria-label="Close cart">✕</button>
+
+  <h2 class="cart-title">
+    Your Cart <span id="cart-count" class="cart-count">(0)</span>
+  </h2>
+
+  <ul id="cart-items" class="cart-items"></ul>
+
+  <div class="cart-footer">
+    <div class="cart-total">
+      <strong>Total:</strong> <span id="cart-total">$0.00</span>
+    </div>
+    <button id="clear-cart" class="btn btn-clear" type="button">CLEAR</button>
+  </div>
+</aside>
+
+
           </div>
         </section>
         <hr />
@@ -117,7 +136,7 @@
         </section>
 
         <section class="main-two">
-          <div style="border: solid 1px black; flex-grow: 1; margin-top: 20px;" >
+          <div style="border: none; flex-grow: 1; margin-top: 20px;" >
             <p style="font-weight: bold;">Category</p>
             <br />
 
